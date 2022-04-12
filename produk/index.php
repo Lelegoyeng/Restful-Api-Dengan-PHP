@@ -1,5 +1,10 @@
 <?php
 require_once "method.php";
+$valid_username= 'produk';
+$valid_password = '2022';
+if (isset($_SERVER['PHP_AUTH_USER']) && $_SERVER['PHP_AUTH_USER']==$valid_username &&  $_SERVER['PHP_AUTH_PW']==$valid_password) {
+	// the user is authenticated and handle the rest api call here
+	
 $prod = new Produk();
 $request_method=$_SERVER["REQUEST_METHOD"];
 switch ($request_method) {
