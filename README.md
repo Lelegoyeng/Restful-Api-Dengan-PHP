@@ -6,7 +6,7 @@ Resutful Routing
 Basic Auth
 
 ## Routes List:
-###comment
+### Comments
 | Route         | Request Method        | Body Request        | Description               |
 ------------------------------------------------------------------------------------------
 
