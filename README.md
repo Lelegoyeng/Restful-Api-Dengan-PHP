@@ -1,7 +1,7 @@
 # :earth_asia: Restful-Api-Dengan-PHP
 Restful Api Dengan Php untuk mempermudah transfer data
 
-## Features
+## :two_hearts: Features
 Resutful Routing
 Basic Auth
 
