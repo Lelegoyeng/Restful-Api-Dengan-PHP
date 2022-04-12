@@ -5,8 +5,7 @@ Restful Api Dengan Php untuk mempermudah transfer data
 Resutful Routing
 Basic Auth
 
-## Routes List:
-### Comments
+### EndPoint:
 ```html
 | Route         | Request Method        | Body Request        | Description               |
 ------------------------------------------------------------------------------------------
