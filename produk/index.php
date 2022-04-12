@@ -43,5 +43,16 @@ switch ($request_method) {
 
 
 
+  } else {
+	  header('WWW-Authenticate: Basic Auth');
+	  header('HTTP/1.0 401 Unauthorized');
+	  $response=array(
+		'status' => 0,
+		'message' =>'Error!'
+		);
+		echo json_encode($response);
+	  exit;
+  
+  }
 
 ?>
