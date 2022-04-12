@@ -7,9 +7,9 @@ Basic Auth
 
 ## Routes List:
 
-| Route        | Request Method                               | Action                                                  |
+| Route        | Request Method   | Action                                                  |
 |--------------|---------------------------
-|  /produk     | `produk                        | `App\Http\Controllers\CommentsController@createComment` |
+|  /produk     | produk                        | `App\Http\Controllers\CommentsController@createComment` |
 |  /index/{id} | `comments`                        | `App\Http\Controllers\CommentsController@getComments`   |
 | `GET/HEAD`| `comments/{id}`                   | `App\Http\Controllers\CommentsController@getComment`    |
 | `DELETE`  | `comments/{id}`                   | `App\Http\Controllers\CommentsController@deleteComment` |
