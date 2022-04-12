@@ -9,7 +9,7 @@ Basic Auth
 
 | Method     | URI                               | Action                                                  |
 |------------|-----------------------------------|---------------------------------------------------------|
-| `POST`     | `comments`                        | `App\Http\Controllers\CommentsController@createComment` |
+|  POST     | `comments`                        | `App\Http\Controllers\CommentsController@createComment` |
 | `GET/HEAD` | `comments`                        | `App\Http\Controllers\CommentsController@getComments`   |
 | `GET/HEAD` | `comments/{id}`                   | `App\Http\Controllers\CommentsController@getComment`    |
 | `DELETE`   | `comments/{id}`                   | `App\Http\Controllers\CommentsController@deleteComment` |
