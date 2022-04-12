@@ -14,16 +14,16 @@ Basic Auth
 | /index/{id}   | GET                 | -               | Get a Single produk data  |
 |               |                     |                 |                           |
 | /index        | POST                | id              | Insert new produk record  |
-|                                       product_id      | into database
-|                                       nama_produk     |
-|                                       kota
-|                                       jumlah_stock
-|                                          
-| /index/{id}   |   POST                |   id
-|                                          product_id
-|                                            nama_produk
-                                            kota
-                                            jumlah_stock
-| /index/{id}   |   DELETE              |     -
+|               |                     | product_id      | into database
+|               |                     | nama_produk     |
+|               |                     | kota            |
+|               |                     | jumlah_stock    |
+|               |                     |   
+| /index/{id}   |   POST              | id
+|               |                     | product_id
+|               |                     | nama_produk
+|               |                     | kota
+|               |                     | jumlah_stock
+| /index/{id}   |   DELETE            | -
 
 ```
