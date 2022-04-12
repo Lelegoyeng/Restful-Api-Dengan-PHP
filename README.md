@@ -24,6 +24,7 @@ Basic Auth
 |               |                     | nama_produk     |                           |
 |               |                     | kota            |                           |
 |               |                     | jumlah_stock    |                           |
-|               |                     |                 | Delete particular Produk  |
-| /index/{id}   |   DELETE            | -               | record from database      |
+|               |                     |                 |                           |
+| /index/{id}   |   DELETE            | -               | Delete particular Produk  |
+|               |                     |                 | record from database      |
 ```
